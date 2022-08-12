@@ -14,7 +14,7 @@ for (i) in range(101):
         print(i)
     if i % 10==0:
         print("Coding Dojo")
-    
+
 
 #Whoa. Es un gran idiota: agrega los enteros impares del 0 al 500,000, e imprime la suma final.
 x=0
@@ -24,6 +24,7 @@ for i in range(0, int(500.000)):
         print(i)
         x=x+i
 print("La suma final es"  ,x)
+
 
 #Cuenta regresiva de a 4: imprime números positivos comenzando desde el 2018, en cuenta regresiva de 4 en 4.
 for i in range(2018,0 , -4):
@@ -41,7 +42,3 @@ mult=2
 for i in range(lowNum, highNum+1):
     if i % mult== 0:
         print(i,end=", ")
-        
-
-
-
