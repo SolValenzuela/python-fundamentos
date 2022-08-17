@@ -1,11 +1,7 @@
 class Usuario:
-    #nombre_del_banco = "Banco del Sol"
-    def __init__(self,balance=0 ):
-        self.balance = balance
-    
-        
-    
-
+    def __init__(self,balance=0):
+        self.balance= balance
+  
     def hacer_retiro(self,monto):
         if (self.balance- monto < 0):
             print("Saldo insuficiente")
