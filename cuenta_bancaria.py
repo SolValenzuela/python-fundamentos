@@ -1,7 +1,11 @@
+from os import name
+
+
 class CuentaBancaria:
     def __init__(self,tasa_de_interes=0.01, balance=0):
         self.tasa_de_interes=tasa_de_interes
         self.balance=balance
+        self.name=name
 
     #clase de usuario
     def deposito(self,monto):
