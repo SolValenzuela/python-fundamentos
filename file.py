@@ -64,7 +64,7 @@ print_hello_x_times(4) #function/parameter
 
 def print_hello_x_or_ten_times(x = 10): #function/parameter
     for num in range(x):
-        print('Hello')  #return
+        print('Hello')
 
 print_hello_x_or_ten_times()    #function/parameter
 print_hello_x_or_ten_times(4)   #function/parameter

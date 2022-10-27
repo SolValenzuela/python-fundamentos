@@ -50,14 +50,14 @@ def imprime_valores_mayores(c):
     if len(c)<=2:
         return False
     # lista nueva 
-    nueva=[]
+    nueva_lista=[]
     for e in c:
         if e > c[1]:
-            nueva.append(e)
+            nueva_lista.append(e)
     # largo lista nueva
-    largo=len(nueva)
+    largo=len(nueva_lista)
     print("numero de valores en lista nueva",largo)
-    return (nueva)
+    return (nueva_lista)
 
 print(imprime_valores_mayores([5,2,3,2,1,4]))
 print(imprime_valores_mayores([3]))
